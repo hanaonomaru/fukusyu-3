@@ -1,0 +1,20 @@
+<h1>Characters#index</h1>
+<p>Find me in app/views/characters/index.html.erb</p>
+
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Gender</td>
+        <td>Voice Acter</td>
+    </tr>
+    <% @characters.each do |f| %>
+    <tr>
+        <td><%= f.name %></td>
+        <td><%= f.age %></td>
+        <td><%= f.gender %></td>
+        <td><%= f.voice_acter %></td>
+    </tr>
+    <% end %>
+
+</table>
